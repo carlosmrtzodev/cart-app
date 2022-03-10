@@ -4,15 +4,19 @@
 
 ## 📄 Intro.
 
+<div align="center">
 This is a Simple Cart App for practice from the course:
 React - Definitive guide: hooks router redux next +Projects, by Nicolas Schurmann.
+</div>
+
+[![Demo Badge](https://img.shields.io/badge/Demo-informational?style=for-the-badge&color=ef233c&labelColor=2b2d42)](https://cart-app-ten.vercel.app/)
 
 ## 💼 Used technologies
 
-![](https://img.shields.io/badge/Markup-HTML5-informational?style=for-the-badge&logo=html5&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
-![](https://img.shields.io/badge/Style-CSS3-informational?style=for-the-badge&logo=css3&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Markup-HTML-informational?style=for-the-badge&logo=html5&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Style-CSS-informational?style=for-the-badge&logo=css3&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
-![](https://img.shields.io/badge/Code-React-informational?style=for-the-badge&logo=react&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Code-React.js-informational?style=for-the-badge&logo=react&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
 
 ## 🚨 Forking this repo
 
