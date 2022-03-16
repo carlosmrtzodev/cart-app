@@ -4,8 +4,7 @@
 
 ## 📄 Intro.
 
-This is a Simple Cart App with React.js for practice from the course:
-React - Definitive guide: hooks router redux next +Projects, by Nicolas Schurmann. <br><br>
+Simple Cart App in React.js and Styled Components. <br><br>
 [![Demo Badge](https://img.shields.io/badge/Demo%20Link-informational?style=for-the-badge&color=ef233c&labelColor=2b2d42)](https://cart-app-ten.vercel.app/)
 
 ## 💼 Used technologies
