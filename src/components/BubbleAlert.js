@@ -1,15 +1,6 @@
 import React, { Component } from "react";
+import { BubbleCount } from "../Styles/Styles";
 
-const styles = {
-  bubbleAlert: {
-    backgroundColor: "#e9725a",
-    borderRadius: "15px",
-    color: "#fff",
-    padding: "2px 10px",
-    fontSize: "0.9rem",
-    width: "20px",
-  },
-};
 class BubbleAlert extends Component {
   getNumber(n) {
     if (!n) {
@@ -19,8 +10,12 @@ class BubbleAlert extends Component {
   }
   render() {
     const { value } = this.props;
-    console.log(value);
-    return <span style={styles.bubbleAlert}>{this.getNumber(value)}</span>;
+
+    return (
+      <>
+        <BubbleCount>{this.getNumber(value)}</BubbleCount>
+      </>
+    );
   }
 }
 

@@ -1,18 +1,12 @@
 import React, { Component } from "react";
-
-const styles = {
-  button: {
-    backgroundColor: "#0a283e",
-    color: "#fff",
-    padding: "15px 20px",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-  },
-};
+import { Buttons } from "../Styles/Styles";
 class Button extends Component {
   render() {
-    return <button style={styles.button} {...this.props} />;
+    return (
+      <>
+        <Buttons {...this.props} />
+      </>
+    );
   }
 }
 

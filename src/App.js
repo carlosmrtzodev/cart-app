@@ -1,63 +1,65 @@
 import React, { Component } from "react";
-import Productos from "./components/Productos";
 import Layout from "./components/Layout";
-import Title from "./components/Title";
 import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 class App extends Component {
   state = {
-    productos: [
-      { name: "Tomate", price: 1500, img: "/productos/tomate.jpg" },
-      { name: "Arbejas", price: 2500, img: "/productos/arbejas.jpg" },
-      { name: "Lechuga", price: 500, img: "/productos/lechuga.jpg" },
+    products: [
+      { name: "Tomatoes", price: 1500, img: "/products/tomatoes.png" },
+      { name: "Chickpeas", price: 2500, img: "/products/chickpeas.png" },
+      { name: "Lettuce", price: 500, img: "/products/lettuce.png" },
     ],
-    carro: [],
-    esCarroVisible: false,
+
+    cart: [],
+    isCartVisible: false,
   };
 
-  agregarAlCarro = (producto) => {
-    const { carro } = this.state;
-    if (carro.find((x) => x.name === producto.name)) {
-      const newCarro = carro.map((x) =>
-        x.name === producto.name
+  addToCart = (product) => {
+    const { cart } = this.state;
+
+    if (cart.find((x) => x.name === product.name)) {
+      const newCart = cart.map((x) =>
+        x.name === product.name
           ? {
               ...x,
-              cantidad: x.cantidad + 1,
+              amount: x.amount + 1,
             }
           : x
       );
-      return this.setState({ carro: newCarro });
+
+      return this.setState({ cart: newCart });
     }
+
     return this.setState({
-      carro: this.state.carro.concat({
-        ...producto,
-        cantidad: 1,
+      cart: this.state.cart.concat({
+        ...product,
+        amount: 1,
       }),
     });
   };
 
-  mostrarCarro = () => {
-    if (!this.state.carro.length) {
+  showCart = () => {
+    if (!this.state.cart.length) {
       return;
     }
-    this.setState({ esCarroVisible: !this.state.esCarroVisible });
+
+    this.setState({ isCartVisible: !this.state.isCartVisible });
   };
   render() {
-    const { esCarroVisible } = this.state;
+    const { isCartVisible } = this.state;
+
     return (
-      <div>
+      <>
         <Navbar
-          esCarroVisible={esCarroVisible}
-          carro={this.state.carro}
-          mostrarCarro={this.mostrarCarro}
+          isCartVisible={isCartVisible}
+          cart={this.state.cart}
+          showCart={this.showCart}
         />
+
         <Layout>
-          <Title />
-          <Productos
-            agregarAlCarro={this.agregarAlCarro}
-            productos={this.state.productos}
-          />
+          <Products addToCart={this.addToCart} products={this.state.products} />
         </Layout>
-      </div>
+      </>
     );
   }
 }
