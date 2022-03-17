@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Details, ProductList } from "../Styles/Styles";
+import { Details } from "../Styles/Containers";
+import { ProductList, Text } from "../Styles/Elements";
 
 class DetailsCart extends Component {
   render() {
@@ -8,15 +9,16 @@ class DetailsCart extends Component {
     return (
       <>
         <Details>
-          <ul>
-            {cart.map((x) => (
-              <ProductList key={x.name}>
+          {cart.map((x) => (
+            <ProductList key={x.name}>
+              <figure>
                 <img alt={x.name} src={x.img} width="50" height="32" />
-                <p>{x.name}</p>
-                <p>{x.amount}</p>
-              </ProductList>
-            ))}
-          </ul>
+              </figure>
+
+              <Text>{x.name}</Text>
+              <Text>{x.amount}</Text>
+            </ProductList>
+          ))}
         </Details>
       </>
     );

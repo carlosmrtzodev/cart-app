@@ -4,8 +4,11 @@
 
 ## 📄 Intro.
 
+<div align="center">
 Simple Cart App in React.js and Styled Components. <br><br>
-[![Demo Badge](https://img.shields.io/badge/Demo%20Link-informational?style=for-the-badge&color=ef233c&labelColor=2b2d42)](https://cart-app-ten.vercel.app/)
+</div>
+
+[![Cart App Banner](./public/assets/banner.png)](https://cart-app-ten.vercel.app/)
 
 ## 💼 Used technologies
 

@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import Cart from "./Cart";
 import React, { Component } from "react";
-import { ContainerFlex, NavBar } from "../Styles/Styles";
+import { ContainerNavBar, NavBar } from "../Styles/Containers";
 class Navbar extends Component {
   render() {
     const { cart, isCartVisible, showCart } = this.props;
@@ -9,14 +9,15 @@ class Navbar extends Component {
     return (
       <>
         <NavBar>
-          <ContainerFlex>
+          <ContainerNavBar>
             <Logo />
+
             <Cart
               cart={cart}
               isCartVisible={isCartVisible}
               showCart={showCart}
             />
-          </ContainerFlex>
+          </ContainerNavBar>
         </NavBar>
       </>
     );

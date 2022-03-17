@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BubbleCount } from "../Styles/Styles";
+import { BubbleCount } from "../Styles/Elements";
 
 class BubbleAlert extends Component {
   getNumber(n) {

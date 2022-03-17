@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { LogoText } from "../Styles/Styles";
+import { LogoText } from "../Styles/Elements";
 class Logo extends Component {
   render() {
     return (

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Layout from "./components/Layout";
 import Navbar from "./components/Navbar";
+import { Credits } from "./Styles/Elements";
 import Products from "./components/Products";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class App extends Component {
   state = {
     products: [
@@ -58,6 +61,15 @@ class App extends Component {
 
         <Layout>
           <Products addToCart={this.addToCart} products={this.state.products} />
+
+          <Credits
+            href="https://github.com/carlosmrtzodev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Designed and Built by: carlosmrtzodev{" "}
+            <FontAwesomeIcon icon={faGithub} />
+          </Credits>
         </Layout>
       </>
     );
