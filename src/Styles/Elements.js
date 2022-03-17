@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 import fadeIn from "react-animations/lib/fade-in";
 const fadeInAnimation = keyframes`${fadeIn}`;
 export const LogoText = styled.h1`
-  animation: 3s ${fadeInAnimation};
+  animation: 1s ${fadeInAnimation};
 `;
 export const Buttons = styled.button`
   border: none;
@@ -75,7 +75,7 @@ export const ProductStyle = styled.div`
   background-color: #363537;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
-  animation: 3s ${fadeInAnimation};
+  animation: 1s ${fadeInAnimation};
 `;
 export const Icons = styled.span`
   color: #2fbf71;
