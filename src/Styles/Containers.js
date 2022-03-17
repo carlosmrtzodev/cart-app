@@ -6,7 +6,7 @@ export const NavBar = styled.nav`
   align-items: center;
   margin-bottom: 4rem;
   justify-content: center;
-  background-color: #363537;
+  background-color: #2b2d42;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 2.5rem 5rem -1.2rem;
 
   @media screen and (max-width: 768px) {

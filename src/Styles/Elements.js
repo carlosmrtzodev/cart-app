@@ -25,10 +25,11 @@ export const BubbleCart = styled.div`
   position: absolute;
 `;
 export const BubbleCount = styled.span`
+  color: #2b2d42;
   font-weight: 700;
   border-radius: 25rem;
   padding: 0.2rem 0.6rem;
-  background-color: #ef2d56;
+  background-color: #edf2f4;
 `;
 export const ProductList = styled.li`
   width: 100%;
@@ -36,7 +37,7 @@ export const ProductList = styled.li`
   padding: 2rem 0;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 0.1rem solid #ffffff;
+  border-bottom: 0.1rem solid #edf2f4;
 
   &:last-child {
     border-bottom: none;
@@ -54,7 +55,7 @@ export const Images = styled.img`
 export const Credits = styled.a`
   gap: 0.8rem;
   display: flex;
-  color: #363537;
+  color: #2b2d42;
   font-weight: 700;
   align-items: center;
   margin-bottom: 4rem;
@@ -72,7 +73,7 @@ export const ProductStyle = styled.div`
   padding: 4rem;
   border-radius: 0.4rem;
   flex-direction: column;
-  background-color: #363537;
+  background-color: #2b2d42;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
   animation: 1s ${fadeInAnimation};
