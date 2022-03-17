@@ -8,10 +8,10 @@ Simple Cart App in React.js and Styled Components. <br><br>
 
 ## 💼 Used technologies
 
-![](https://img.shields.io/badge/Markup-HTML-informational?style=for-the-badge&logo=html5&logoColor=edf2f4&color=2fbf71&labelColor=2b2d42)
-![](https://img.shields.io/badge/Style-CSS-informational?style=for-the-badge&logo=css3&logoColor=edf2f4&color=2fbf71&labelColor=2b2d42)
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=edf2f4&color=2fbf71&labelColor=2b2d42)
-![](https://img.shields.io/badge/Code-React.js-informational?style=for-the-badge&logo=react&logoColor=edf2f4&color=2fbf71&labelColor=2b2d42)
+![](https://img.shields.io/badge/Markup-HTML-informational?style=for-the-badge&logo=html5&logoColor=2fbf71&color=2fbf71&labelColor=2b2d42)
+![](https://img.shields.io/badge/Style-CSS-informational?style=for-the-badge&logo=css3&logoColor=2fbf71&color=2fbf71&labelColor=2b2d42)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=2fbf71&color=2fbf71&labelColor=2b2d42)
+![](https://img.shields.io/badge/Code-React.js-informational?style=for-the-badge&logo=react&logoColor=2fbf71&color=2fbf71&labelColor=2b2d42)
 
 ## 🚨 Forking this repo
 
