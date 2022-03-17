@@ -67,8 +67,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Designed and Built by: carlosmrtzodev{" "}
-            <FontAwesomeIcon icon={faGithub} />
+            carlosmrtzodev <FontAwesomeIcon icon={faGithub} />
           </Credits>
         </Layout>
       </>

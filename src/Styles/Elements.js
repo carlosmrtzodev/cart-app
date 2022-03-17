@@ -2,16 +2,12 @@ import styled, { keyframes } from "styled-components";
 import fadeIn from "react-animations/lib/fade-in";
 const fadeInAnimation = keyframes`${fadeIn}`;
 export const LogoText = styled.h1`
-  font-weight: 700;
-  font-size: 3.2rem;
-
   animation: 3s ${fadeInAnimation};
 `;
 export const Buttons = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 1.8rem;
   position: relative;
   padding: 1.2rem 2rem;
   border-radius: 25rem;
@@ -22,7 +18,7 @@ export const Buttons = styled.button`
     filter: brightness(1.1);
   }
 `;
-export const BubbleCart = styled.span`
+export const BubbleCart = styled.div`
   top: 0;
   left: 0;
   z-index: 10;
@@ -30,7 +26,6 @@ export const BubbleCart = styled.span`
 `;
 export const BubbleCount = styled.span`
   font-weight: 700;
-  font-size: 1.2rem;
   border-radius: 25rem;
   padding: 0.2rem 0.6rem;
   background-color: #ef2d56;
@@ -39,7 +34,6 @@ export const ProductList = styled.li`
   width: 100%;
   display: flex;
   padding: 2rem 0;
-  font-size: 1.6rem;
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.1rem solid #ffffff;
@@ -51,11 +45,7 @@ export const ProductList = styled.li`
 export const Text = styled.p`
   gap: 0.8rem;
   display: flex;
-  font-size: 1.6rem;
-
-  @media screen and (max-width: 480px) {
-    font-size: 1.8rem;
-  }
+  align-items: center;
 `;
 export const Images = styled.img`
   width: 100%;
@@ -66,7 +56,6 @@ export const Credits = styled.a`
   display: flex;
   color: #363537;
   font-weight: 700;
-  font-size: 1.6rem;
   align-items: center;
   margin-bottom: 4rem;
   justify-content: center;
@@ -74,10 +63,6 @@ export const Credits = styled.a`
 
   &:hover {
     color: #2fbf71;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 1.4rem;
   }
 `;
 export const ProductStyle = styled.div`

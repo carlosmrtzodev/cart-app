@@ -24,3 +24,18 @@ span,
 button {
   color: #ffffff;
 }
+
+h1 {
+  font-size: 3.2rem;
+}
+
+a,
+p,
+li,
+button {
+  font-size: 1.8rem;
+}
+
+span {
+  font-size: 1.2rem;
+}
