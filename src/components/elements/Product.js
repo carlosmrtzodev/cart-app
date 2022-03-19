@@ -1,8 +1,8 @@
 import Button from "./Button";
 import { Component } from "react";
-import { Information } from "../Styles/Containers";
+import { Information } from "../../Styles/Containers";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Images, Text, ProductStyle, Icons } from "../Styles/Elements";
+import { Images, Text, ProductStyle, Icons } from "../../Styles/Elements";
 import { faCashRegister, faShop } from "@fortawesome/free-solid-svg-icons";
 class Product extends Component {
   render() {
@@ -37,5 +37,4 @@ class Product extends Component {
     );
   }
 }
-
 export default Product;

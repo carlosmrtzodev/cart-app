@@ -1,8 +1,8 @@
 import BubbleAlert from "./BubbleAlert";
 import DetailsCart from "./DetailsCart";
 import React, { Component } from "react";
-import { Relative } from "../Styles/Containers";
-import { BubbleCart, Buttons } from "../Styles/Elements";
+import { Relative } from "../../Styles/Containers";
+import { BubbleCart, Buttons } from "../../Styles/Elements";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
@@ -28,5 +28,4 @@ class Cart extends Component {
     );
   }
 }
-
 export default Cart;

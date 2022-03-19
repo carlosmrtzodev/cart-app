@@ -1,21 +1,16 @@
-import styled, { keyframes } from "styled-components";
-import fadeIn from "react-animations/lib/fade-in";
-const fadeInAnimation = keyframes`${fadeIn}`;
-export const LogoText = styled.h1`
-  animation: 1s ${fadeInAnimation};
-`;
+import styled from "styled-components";
 export const Buttons = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
   position: relative;
   padding: 1.2rem 2rem;
-  border-radius: 25rem;
-  transition: all ease 0.3s;
+  border-radius: 24rem;
+  transition: all ease 0.2s;
   background-color: #2fbf71;
 
   &:hover {
-    filter: brightness(1.1);
+    filter: brightness(1.2);
   }
 `;
 export const BubbleCart = styled.div`
@@ -26,8 +21,8 @@ export const BubbleCart = styled.div`
 `;
 export const BubbleCount = styled.span`
   color: #2b2d42;
-  font-weight: 700;
-  border-radius: 25rem;
+  font-weight: bold;
+  border-radius: 24rem;
   padding: 0.2rem 0.6rem;
   background-color: #edf2f4;
 `;
@@ -37,7 +32,7 @@ export const ProductList = styled.li`
   padding: 2rem 0;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 0.1rem solid #edf2f4;
+  border-bottom: 0.2rem solid #edf2f4;
 
   &:last-child {
     border-bottom: none;
@@ -52,20 +47,6 @@ export const Images = styled.img`
   width: 100%;
   height: auto;
 `;
-export const Credits = styled.a`
-  gap: 0.8rem;
-  display: flex;
-  color: #2b2d42;
-  font-weight: 700;
-  align-items: center;
-  margin-bottom: 4rem;
-  justify-content: center;
-  transition: all ease 0.3s;
-
-  &:hover {
-    color: #2fbf71;
-  }
-`;
 export const ProductStyle = styled.div`
   gap: 2rem;
   width: 100%;
@@ -75,12 +56,10 @@ export const ProductStyle = styled.div`
   flex-direction: column;
   background-color: #2b2d42;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-
-  animation: 1s ${fadeInAnimation};
 `;
 export const Icons = styled.span`
   color: #2fbf71;
-  transition: all ease 0.3s;
+  transition: all ease 0.2s;
 `;
 export const Error = styled(ProductStyle)`
   width: 50%;

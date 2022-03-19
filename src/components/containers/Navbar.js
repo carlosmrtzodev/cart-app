@@ -1,7 +1,7 @@
-import Logo from "./Logo";
-import Cart from "./Cart";
+import Logo from "../elements/Logo";
+import Cart from "../elements/Cart";
 import React, { Component } from "react";
-import { ContainerNavBar, NavBar } from "../Styles/Containers";
+import { ContainerNavBar, NavBar } from "../../Styles/Containers";
 class Navbar extends Component {
   render() {
     const { cart, isCartVisible, showCart } = this.props;
@@ -23,5 +23,4 @@ class Navbar extends Component {
     );
   }
 }
-
 export default Navbar;

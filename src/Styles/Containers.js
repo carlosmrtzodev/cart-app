@@ -19,15 +19,15 @@ export const Relative = styled.div`
 export const Details = styled.ul`
   right: 0;
   top: 6rem;
-  width: 25rem;
+  width: 24rem;
   padding: 2rem;
   position: absolute;
   border-radius: 0.4rem;
   background-color: #2fbf71;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 2.5rem 5rem -1.2rem;
 
   @media screen and (max-width: 768px) {
-    right: -3.7rem;
+    right: -3.8rem;
   }
 `;
 export const LayoutContent = styled.main`

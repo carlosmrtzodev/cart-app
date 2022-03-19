@@ -1,6 +1,6 @@
-import Product from "./Product";
 import React, { Component } from "react";
-import { ProductStyles } from "../Styles/Containers";
+import Product from "../elements/Product";
+import { ProductStyles } from "../../Styles/Containers";
 class Products extends Component {
   render() {
     const { products, addToCart } = this.props;
@@ -20,5 +20,4 @@ class Products extends Component {
     );
   }
 }
-
 export default Products;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Details } from "../Styles/Containers";
-import { ProductList, Text } from "../Styles/Elements";
-
+import { Details } from "../../Styles/Containers";
+import { ProductList, Text } from "../../Styles/Elements";
 class DetailsCart extends Component {
   render() {
     const { cart } = this.props;
@@ -24,5 +23,4 @@ class DetailsCart extends Component {
     );
   }
 }
-
 export default DetailsCart;

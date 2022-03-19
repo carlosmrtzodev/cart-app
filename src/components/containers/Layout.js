@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, LayoutContent } from "../Styles/Containers";
+import { Container, LayoutContent } from "../../Styles/Containers";
 class Layout extends Component {
   render() {
     return (
@@ -11,5 +11,4 @@ class Layout extends Component {
     );
   }
 }
-
 export default Layout;

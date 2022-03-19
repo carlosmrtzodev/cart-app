@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Buttons } from "../Styles/Elements";
+import { Buttons } from "../../Styles/Elements";
 class Button extends Component {
   render() {
     return (
@@ -9,5 +9,4 @@ class Button extends Component {
     );
   }
 }
-
 export default Button;

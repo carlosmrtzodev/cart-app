@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { Component } from "react";
-import Layout from "./components/Layout";
 import { Error } from "./Styles/Elements";
 import { Buttons, Text } from "./Styles/Elements";
+import Layout from "./components/containers/Layout";
 class NotFound extends Component {
   render() {
     return (

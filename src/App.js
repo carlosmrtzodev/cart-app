@@ -1,22 +1,18 @@
 import React, { Component } from "react";
-import Layout from "./components/Layout";
-import Navbar from "./components/Navbar";
-import { Credits } from "./Styles/Elements";
-import Products from "./components/Products";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Layout from "./components/containers/Layout";
+import Navbar from "./components/containers/Navbar";
+import Products from "./components/containers/Products";
 class App extends Component {
   state = {
     products: [
-      { name: "Tomatoes", price: 1500, img: "/products/tomatoes.png" },
-      { name: "Chickpeas", price: 2500, img: "/products/chickpeas.png" },
-      { name: "Lettuce", price: 500, img: "/products/lettuce.png" },
+      { name: "Tomatoes", price: 1500, img: "/tomatoes.png" },
+      { name: "Chickpeas", price: 2500, img: "/chickpeas.png" },
+      { name: "Lettuce", price: 500, img: "/lettuce.png" },
     ],
 
     cart: [],
     isCartVisible: false,
   };
-
   addToCart = (product) => {
     const { cart } = this.state;
 
@@ -40,7 +36,6 @@ class App extends Component {
       }),
     });
   };
-
   showCart = () => {
     if (!this.state.cart.length) {
       return;
@@ -61,14 +56,6 @@ class App extends Component {
 
         <Layout>
           <Products addToCart={this.addToCart} products={this.state.products} />
-
-          <Credits
-            href="https://github.com/carlosmrtzodev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            carlosmrtzodev <FontAwesomeIcon icon={faGithub} />
-          </Credits>
         </Layout>
       </>
     );
