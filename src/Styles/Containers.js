@@ -54,6 +54,10 @@ export const Container = styled.article`
   width: 75%;
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 1024px;
+  }
 `;
 export const ContainerNavBar = styled.div`
   width: 75%;
@@ -64,6 +68,10 @@ export const ContainerNavBar = styled.div`
   @media screen and (max-width: 768px) {
     gap: 0.8rem;
     flex-direction: column;
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 1024px;
   }
 `;
 export const Information = styled.div`
