@@ -1,7 +1,7 @@
 ## 📄 Intro.
 
 <div align="center">
-Simple Cart App in React.js with React Router and Styled Components. <br><br>
+Simple Cart App in React.js and Styled Components. <br><br>
 </div>
 
 [![Cart App Banner](./public/banner.png)](https://cart-app-ten.vercel.app/)
